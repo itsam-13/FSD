@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>User Information</h2>
+    <form action="/action.php">
+        <label >Username : 
+        <input type="text" placeholder="Enter username">
+    
+        </label><br><br>
+        <label>Password : 
+        <input type="password" placeholder="Enter password">
+        </label><br><br>
+        
+        <h4>Gender : </h4>
+        <label for="101"> 
+            <input type="radio" name="gender" id="101">Male <br>
+            <label for="102">
+            <input type="radio" name="gender" id="102">Female
+            </label><br>
+            <label for="103">
+            <input type="radio" name="gender" id="103">Other
+        </label>
+
+        <h4>Select Subject :</h4>
+        <label for="1">
+            <input type="checkbox" name="course" id="1">Maths
+        </label><br>
+        <label for="2">
+            <input type="checkbox" name="course" id="2">C++
+        </label><br>
+        <label for="3">
+            <input type="checkbox" name="course" id="3">Python
+        </label><br>
+        <label for="4">
+            <input type="checkbox" name="course" id="4">JAVA
+        </label><br><br>
+
+        <label for="1001">
+            <textarea name="Message" placeholder="If issue type here !!" id="1001" rows="14" cols="30"></textarea>
+        </label><br>
+
+        <label for="">Select college 
+            <select name="College" id="001">
+                <option value="">--select--</option>
+                <option value="ABES">ABES</option>
+                <option value="IIT">IIT</option>
+                <option value="NIT">NIT</option>
+            </select></label>
+        <br><br><br>
+
+        <input type="submit">
+
+</form>
+</body>
+</html>
