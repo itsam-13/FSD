@@ -1,3 +1,19 @@
-p{
-    color: #00FF00;
+*{
+    color: #ff00c3;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+}
+
+#para1{
+    color: blue;
+    padding: 50px;
+}
+#para2{
+    color: green;
+}
+#para3{
+    color: red;
 }
