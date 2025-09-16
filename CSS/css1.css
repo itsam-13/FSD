@@ -1,19 +1,35 @@
-*{
-    color: #ff00c3;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    
-}
-
 #para1{
-    color: blue;
-    padding: 50px;
+    color: rgb(0, 195, 255);
+    padding: 10px;
+    font-family: 'Shadow Into Light', cursive;
 }
 #para2{
     color: green;
 }
 #para3{
     color: red;
+}
+
+#box{
+    width: 500px;
+    height: 500px;
+    background-color: blue  ;
+    margin: auto;
+    border: 2px solid black;
+
+}
+
+.para{
+    color: seagreen;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+    text-decoration: dotted underline;
+    font-family:'Shadow Into Light', cursive;
+    
+}
+
+.heading{
+    color: rgb(191, 21, 9);
+    padding: 10px;
 }
