@@ -18,7 +18,7 @@ console.log("You are "+age+" years old")
 if(age>18)
     console.log("ADULT")
 else if(age==18)
-    console.log("JUST ADULT")
+    console.log("JUST  ADULT")
 else
     console.log("NOT ADULT")
 

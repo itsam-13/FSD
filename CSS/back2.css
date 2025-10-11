@@ -1,0 +1,10 @@
+
+#back2{
+    margin: 0%;
+    padding: 0%;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: repeating-conic-gradient(#231942,#5E548E,#9F86C0,#9b1f63);
+
+}
