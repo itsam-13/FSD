@@ -11,16 +11,15 @@ html,body{
 
 
 body{
-    background-color: teal;
+    height: 500vh;
+    background-color: #b9c0da;
 }
 
-@media (max-width: 600px) and (min-width: 300px){
-    body{
-        background-color: lightblue;
-    }
-}
+
 
 .parent{
+    height: 500px;
+    width: 100%;
     border: 2px solid black;
     display: flex;
     position: absolute;
@@ -32,25 +31,54 @@ body{
 .box1, .box2, .box3, .box4{
     height: 100px;
     width: 100px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .box1{
-    position: relative;
-    background-color: red;
+    position: sticky;
+    top: -15px;
+    background-color: #c52233;
     
 }
 .box2{
     position: relative;
-    background-color: blue;
+    /* top: 15px; */
+    background-color: #A51C30;
     
     
 }
 .box3{
     position: relative;
-    background-color: green;
+    /* top: -15px; */
+    background-color: #A7333F;
 }
 .box4{
     position: relative;
-    background-color: yellow;
+    /* top: 15px; */
+    background-color: #74121D;
 }
+
+.box1:hover{
+    background-color: purple;
+
+}
+.box2:hover{
+    background-color: #45364B;
+
+}
+.box3:hover{
+    background-color: silver;
+
+}
+.box4:hover{
+    background-color: seagreen;
+}
+
+
+@media (max-width: 600px) and (min-width: 300px){
+    body{
+        background-color: lightblue;
+        
+    }
+}
+
