@@ -1,7 +1,7 @@
 # Full Stack Development (FSD) — College Learning Journey
 
 ## 📚 Overview
-This repository documents my journey of learning **Full Stack Development (FSD)** through my college classes. It includes prjects, practice exercises covering **frontend** technologies.
+This repository documents my journey of learning **Full Stack Development (FSD)** through my college classes. It includes projects, practice exercises covering **frontend** technologies.
 
 ## 💡 What I’m Learning
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React 
