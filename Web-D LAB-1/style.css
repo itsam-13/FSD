@@ -1,0 +1,19 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #cad5ca;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 2px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    
+}
