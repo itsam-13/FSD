@@ -1,0 +1,21 @@
+.div{
+    width:  200px;
+    height: 200px;
+    background-color: rosybrown;
+    animation-name: example;
+    position: relative;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternative;
+    animation-timing-function: cubic-bezier(0.175,0.885,0.32,1.2);
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color: rosybrown; left:0px; top:0px;}
+    25%  {background-color: lightblue; left:200px; top:0px;}
+    50%  {background-color: lightgreen; left:200px; top:200px;}
+    75%  {background-color: lightpink; left:0px; top:200px;}
+    100% {background-color: rosybrown; left:0px; top:0px;}
+    
+}
